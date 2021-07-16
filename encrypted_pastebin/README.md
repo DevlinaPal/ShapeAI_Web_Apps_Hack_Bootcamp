@@ -1,24 +1,13 @@
-# Encrypted Pastebin - FLAG0
+# Encrypted Pastebin
 
-## 0x00 Home
+## [Flag0](./flag0) -- Found
 
-![](./imgs/home.jpg)
+- What are these encrypted links?
+- Encodings like base64 often need to be modified for URLs. Thanks, HTTP
+- What is stopping you from modifying the data? Not having the key is no excuse
 
-## 0x01 Try Post
+## [Flag1](./flag1) -- Not Found
 
-[http://127.0.0.1/xxxxxxxxxx/?post=6ybKGEfF47eN1k5eyj!lsraaVXFME-xBz51ocCeiAZPULUMIemubmPanqBO04ixb-01L-Qek7nUeXitmNAEMNrJ5BbfeP5GWD1hYEuHciAk81fRa4IyuvmcIG3sE1K11mM7s7hA1P1mChArqJR4i5wSrOF7O561nOHu!lGQcA1iFos-jU6x7iy-TJ4iI4yZjnHkcdXT2F9y6fH4!TY!DcA~~][1]
+## [Flag2](./flag2) -- Not Found
 
-The result page can decode the post param back to the **title** and **body**
-
-## 0x02 Modify the Param
-
-Added **12345** as prefix for param **post**
-
-[http://127.0.0.1/xxxxxxxxxx/?post=123456ybKGEfF47eN1k5eyj!lsraaVXFME-xBz51ocCeiAZPULUMIemubmPanqBO04ixb-01L-Qek7nUeXitmNAEMNrJ5BbfeP5GWD1hYEuHciAk81fRa4IyuvmcIG3sE1K11mM7s7hA1P1mChArqJR4i5wSrOF7O561nOHu!lGQcA1iFos-jU6x7iy-TJ4iI4yZjnHkcdXT2F9y6fH4!TY!DcA~~][2]
-
-Caused errors and get a flag.
-
-![](./imgs/flag.jpg)
-
-[1]: http://127.0.0.1/xxxxxxxxxx/?post=6ybKGEfF47eN1k5eyj!lsraaVXFME-xBz51ocCeiAZPULUMIemubmPanqBO04ixb-01L-Qek7nUeXitmNAEMNrJ5BbfeP5GWD1hYEuHciAk81fRa4IyuvmcIG3sE1K11mM7s7hA1P1mChArqJR4i5wSrOF7O561nOHu!lGQcA1iFos-jU6x7iy-TJ4iI4yZjnHkcdXT2F9y6fH4!TY!DcA~~
-[2]: http://127.0.0.1/xxxxxxxxxx/?post=123456ybKGEfF47eN1k5eyj!lsraaVXFME-xBz51ocCeiAZPULUMIemubmPanqBO04ixb-01L-Qek7nUeXitmNAEMNrJ5BbfeP5GWD1hYEuHciAk81fRa4IyuvmcIG3sE1K11mM7s7hA1P1mChArqJR4i5wSrOF7O561nOHu!lGQcA1iFos-jU6x7iy-TJ4iI4yZjnHkcdXT2F9y6fH4!TY!DcA~~
+## [Flag3](./flag3) -- Not Found
